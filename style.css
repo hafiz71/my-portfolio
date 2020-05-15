@@ -6,6 +6,12 @@ section{
     height:500px;
     margin-bottom: 50px;
 }
+footer{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
 .top-site{
     background-image: url("Images/top-banner.png");
     background-repeat: no-repeat;
@@ -23,6 +29,7 @@ h4{
 }
 p{
     font-size: 17px;
+    color:dimgrey;
 }
 .half-width{
     margin:0 60px;
@@ -33,6 +40,7 @@ p{
   float: right;
   width: 80%;
   height:500px;
+  border-radius: 50%;
 }
 .half-width a{
     text-decoration: none;
@@ -42,6 +50,30 @@ p{
     color:white;
     font-weight: 700;
 }
+#ex-path{
+   color:rebeccapurple;
+   font-size: 35px;
+   margin-left: 2px;
+}
+#box-one{
+    box-shadow: 10px 10px 40px gray ;
+    height:60%;
+    padding:5px;
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, yellow, cyan);
+    border-image-slice: 1;
+}
+#box-two{
+    box-shadow: 10px 10px 40px gray ;
+    height:60%;
+    padding:5px;
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, green,blue);
+    border-image-slice: 1;
+}
 #color-name{
     color:tomato;
+}
+#title-color{
+    color:orangered;
 }
