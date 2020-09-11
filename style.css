@@ -1,12 +1,13 @@
 body{
     font-family: 'Noto Sans KR', sans-serif;font-family: 'Noto Sans KR', sans-serif;
 }
-.container-fluid{
-    margin-bottom:50px;
+.top-site, .middle-site, .experienceArea, .contactArea{
+    margin-top:50px;
+    margin-bottom: 30px;
     
 }
-.navArea{
-    margin-bottom:76px;
+.caroImages{
+    height:400px;
 }
 footer{
     text-align: center;
@@ -82,4 +83,7 @@ p{
 }
 #title-color{
     color:orangered;
+}
+.mobile:hover{
+    color:orange !important;
 }
