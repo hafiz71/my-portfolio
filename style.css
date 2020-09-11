@@ -1,16 +1,19 @@
 body{
     font-family: 'Noto Sans KR', sans-serif;font-family: 'Noto Sans KR', sans-serif;
-    margin:0;
 }
-section{
-    height:500px;
-    margin-bottom: 50px;
+.top-site, .middle-site, .experienceArea, .contactArea{
+    margin-top:50px;
+    margin-bottom: 30px;
+    
+}
+.caroImages{
+    height:400px;
 }
 footer{
     text-align: center;
     font-size: 12px;
-    margin-top: 0px;
     margin-bottom: 10px;
+    color:gray;
 }
 .top-site{
     background-image: url("Images/top-banner.png");
@@ -30,50 +33,57 @@ h4{
 p{
     font-size: 17px;
     color:dimgrey;
+    text-align:justify;
 }
-.half-width{
-    margin:0 60px;
-    width: 40%;
-    float: left;
+.facebook{
+    background-color: red;
+    background-image: linear-gradient(45deg, blue, darkblue);
+    padding: 5px 20px;
+    color:white;
+    font-weight: 700;
 }
-.half-width img{
-  float: right;
-  width: 80%;
-  height:500px;
-  border-radius: 50%;
-}
-.half-width a{
-    text-decoration: none;
+.instragram{
     background-color: red;
     background-image: linear-gradient(45deg, tomato, orange);
     padding: 5px 20px;
     color:white;
     font-weight: 700;
 }
+.half-width a{
+    text-decoration:none;
+}
+.half-width a:hover{
+    color:red;
+}
+.experienceArea{
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+}
 #ex-path{
    color:rebeccapurple;
    font-size: 35px;
-   margin-left: 2px;
 }
-#box-one{
-    box-shadow: 10px 10px 40px gray ;
-    height:60%;
-    padding:5px;
-    border-left: 4px solid;
+.box-one{
+    box-shadow: 4px 3px 10px gray ;
+    background-color: white;
     border-image: linear-gradient(180deg, yellow, cyan);
     border-image-slice: 1;
 }
-#box-two{
-    box-shadow: 10px 10px 40px gray ;
-    height:60%;
-    padding:5px;
-    border-left: 4px solid;
+.box-two{
+    box-shadow: 4px 3px 10px gray ;
     border-image: linear-gradient(180deg, green,blue);
     border-image-slice: 1;
 }
+.card{
+    border:none;
+    height:100%;
+}
 #color-name{
-    color:tomato;
+    color:chocolate;
 }
 #title-color{
     color:orangered;
+}
+.mobile:hover{
+    color:orange !important;
 }
