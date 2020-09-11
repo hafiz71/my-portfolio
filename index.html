@@ -4,47 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="style.css">
     <title>Hafiz Portfolio</title>
 </head>
 <body>
-    <section class="top-site">
-        <div class="half-width">
-            <h1>Welcome to</h1>
-            <h1><span id="color-name">Hafiz</span> Website</h1>
-            <h4>Larner for WebDevs</h4>
-            <p>I am just learning for programmig. Now my position is that only coding student. In future I want to a top class webDevs InshaAllah. I always pray to Allah "Allam Homma Inni Asalukal Afaiha" that means "Allah always donate wellness". Becoming a programmer will definitely be easier if you have the right educational background in the basics of computer technology and logic, and mathematics (obviously). If you lack this educational foundation, you can learn things on the go, but that will require more time and more effort on your part.</p>
-            <a target="_blank" href="https://web.facebook.com/HafizUddin1971">My Facebook</a>
-        </div>
-        <div class="half-width">
-           <img src="Images/profile2.png" alt="">
+    <section class="container-fluid navArea">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#">
+                <img src="Images/avatar.png" class="rounded-circle" style="width:50px" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#goal">Goals</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#label">Label</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+            </div>
+            <div class="d-flex">
+                <a class="nav-link" target="_blank" style="font-size:20px; color:tomato" href="https://github.com/hafiz71"><i class="fab fa-github"></i></a>
+                <a class="nav-link" target="_blank" style="font-size:20px; color:tomato" href="https://twitter.com/Hafiz__Uddin"><i class="fab fa-twitter"></i></a>
+                <a class="nav-link" style="font-size:20px; color:tomato" href="#"><i class="fab fa-linkedin-in"></i></a>
+             </div>
+          </nav>       
+    </section>
+
+    <section class="container-fluid top-site">
+            <div class="row">
+                <div class="half-width col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <h1 class="text-primary font-weight-bold">Welcome to</h1>
+                    <h1 class="text-primary font-weight-bold"><span id="color-name">Hafiz</span> Website</h1>
+                    <h4>Larner for WebDevs</h4>
+                    <p>I am just learning for programmig. Now my position is that only coding student. In future I want to a top class webDevs InshaAllah. I always pray to Allah "Allah Homma Inni Asalukal Afaiha" that means "Allah always donate wellness". Becoming a programmer will definitely be easier if you have the right educational background in the basics of computer technology and logic, and mathematics (obviously). If you lack this educational foundation, you can learn things on the go, but that will require more time and more effort on your part.</p>
+                    <a target="_blank" href="https://web.facebook.com/HafizUddin1971" class="facebook">My Facebook</a>
+                </div>
+                <div class="half-width col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <img src="Images/profile2.png" class="w-100 rounded-circle" alt="">
+                </div>
+            </div>    
+    </section>
+
+    <section class="container-fluid middle-site" id="goal">
+        <div class="row">
+            <div class="half-width col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <img src="Images/profile1.png" class="w-100 rounded-circle" alt="">
+            </div>
+            <div class="half-width col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <h1 style="color:orange; font-weight:bold">BIG Dream</h1>
+                <h4>Become a top level WebDevs</h4>
+                <p>I know top level WebDevs is not that easy. It is a long journey. I compromises this "Oscan". InshaAllah oneday I will success in this journey. Technology has become an integral part of our everyday lives, thanks to devices such as smartphones, smart home appliances, connected cars, and many other being used by billions of people worldwide. All these devices run on software created by programmers, and due to high demand for software engineers, there is a lot of interest in mastering the art of good code.In fact, software engineering has become a popular and sought-after career choice around the globe. Demand remains robust and this is a long-term trend. It is tempting to think that you merely have to learn how to code to become a software developer, but like in many other careers, it takes more than a single skill. To be a really successful programmer, there are a few prerequisites you’ll need.</p>
+                <a target="_blank" href="https://www.instagram.com/hafiz_uddin71/" class="instragram">My Instragram</a>
+            </div>
         </div>
     </section>
 
-    <section class="middle-site">
-        <div class="half-width">
-            <img src="Images/profile1.png" alt="">
-        </div>
-        <div class="half-width">
-            <h1>BIG Dream</h1>
-            <h4>Become a top level WebDevs</h4>
-            <p>I know top level WebDevs is not that easy. It is a long journey. I compromises this "Oscan". InshaAllah oneday I will success in this journey. Technology has become an integral part of our everyday lives, thanks to devices such as smartphones, smart home appliances, connected cars, and many other being used by billions of people worldwide. All these devices run on software created by programmers, and due to high demand for software engineers, there is a lot of interest in mastering the art of good code.In fact, software engineering has become a popular and sought-after career choice around the globe. Demand remains robust and this is a long-term trend. It is tempting to think that you merely have to learn how to code to become a software developer, but like in many other careers, it takes more than a single skill. To be a really successful programmer, there are a few prerequisites you’ll need.</p>
-            <a target="_blank" href="https://www.instagram.com/hafiz_uddin71/">My Instragram</a>
-        </div>
-    </section>
-    <section class="experience-path">
-        <h1 id="ex-path">Exprience</h1>
-        <div id="box-one" class="half-width">
-            <h1>Full Stack Web Developer</h1>
-            <h4 id="title-color">2021-Present | Pro Level Developer</h4>
-            <p>I am the master of HTML, CSS and Javascript. I know everything needed to make a website function, efficient. I didn't stop with the web. I went beyond with most popular Javascript framework called Vue JS. I even know the deployment, server and security. I will give you 100% web solution InshaAllah.</p>
-        </div>
-        <div id="box-two" class="half-width">
-            <h1>Baby Web Developer</h1>
-            <h4 id="title-color">2020-2021 | Programming Hero Learner</h4>
-            <p>They didn't offer me a job. But I made myself as a remove web developer. I made their website and showed it to them. They liked it. And uploaded the content. It was fun working at Programming Hero</p>
-        </div>
+    <section class="container-fluid experienceArea" id="label">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <div class="card box-one">
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bolder text-primary">Full Stack Web Developer</h5>
+                  <h4 id="title-color">2021-Present | Pro Level Developer</h4>
+                  <p class="card-text">I am the master of HTML, CSS and Javascript. I know everything needed to make a website function, efficient. I didn't stop with the web. I went beyond with most popular Javascript framework called Vue JS. I even know the deployment, server and security. I will give you 100% web solution InshaAllah.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <div class="card box-two">
+                <div class="card-body">
+                  <h5 class="card-title  font-weight-bolder text-primary">Junior Web Developer</h5>
+                  <h4 id="title-color">2020-2021 | Programming Hero Learner</h4>
+                  <p class="card-text">They didn't offer me a job. But I made myself as a remove web developer. I made their website and showed it to them. They liked it. And uploaded the content. It was fun working at Programming Hero</p>
+                </div>
+              </div>
+            </div>
+          </div>
     </section>
     <footer> &copy; HafizUddin 2021, Full stack WebDevs </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
